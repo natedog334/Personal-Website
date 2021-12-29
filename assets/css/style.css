@@ -79,19 +79,31 @@ footer {
 .work {
     grid-column: 2 / 3;
     margin-bottom: 2em;
+    background-color: #001844;
+    border-radius: 1em;
 }
 
 .work * {
-    margin: 0;
+    margin: 0.5em;
+}
+
+.work h3, li {
+    color: white;
 }
 
 .school {
     grid-column: 2 / 3;
     margin-bottom: 2em;
+    background-color: #001844;
+    border-radius: 1em;
 }
 
 .school * {
-    margin: 0;
+    margin: 0.5em;
+}
+
+.school h3, li {
+    color: white;
 }
 
 .bubbles {
@@ -115,18 +127,34 @@ footer {
 }
 
 .imp {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .project {
     grid-column: 2 / 3;
+    background-color: #001844;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+.project * {
+    margin: 0.5em;
+}
+
+.project h2, p {
+    color: white;
 }
 
 .project img {
+    margin-left: 15%;
     width: 70%;
     justify-self: center;
+}
+
+.project a {
+    color: white;
 }
 
 p {
@@ -135,7 +163,8 @@ p {
 }
 
 .desc {
-    font-size: 1.5em;
+    font-size: 1em;
+    color: white;
 }
 
 .contact {
@@ -265,7 +294,8 @@ p {
     }
 
     .project img {
-        width: 100%;
+        margin-left: 10%;
+        width: 80%;
     }
 
     .contact img {
